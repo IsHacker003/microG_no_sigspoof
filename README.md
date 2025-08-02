@@ -23,3 +23,8 @@ The microG APKs used are signed using Google's official signature for Google Pla
    ```
 
 To clean, just use `make clean`.
+## Download
+1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip
+](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-prerelease/microG-nosigspoof-systemless.zip)
+2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip
+](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-prerelease/microG-nosigspoof-recovery.zip)
