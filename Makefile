@@ -19,3 +19,9 @@ module-recovery:
 	cp apks/GsfProxy.apk module/recovery/system/priv-app/GsfProxy
 	cd module/recovery && zip -r -9 microG-nosigspoof-recovery.zip * && mv microG-nosigspoof-recovery.zip ../..
 	@echo "Done! Now flash microG-nosigspoof-recovery.zip through a custom recovery on your phone."
+
+clean:
+	rm microG-nosigspoof-recovery.zip
+	rm microG-nosigspoof-systemless.zip
+	rm -rf module/magisk/system/priv-app
+	rm -rf module/recovery/system/priv-app
