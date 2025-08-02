@@ -1,4 +1,8 @@
 module-magisk:
+	mkdir module/magisk/system/priv-app
+	mkdir module/magisk/system/priv-app/GmsCore
+	mkdir module/magisk/system/priv-app/Phonesky
+	mkdir module/magisk/system/priv-app/GsfProxy
 	cp apks/GmsCore.apk module/magisk/system/priv-app/GmsCore
 	cp apks/Phonesky.apk module/magisk/system/priv-app/Phonesky
 	cp apks/GsfProxy.apk module/magisk/system/priv-app/GsfProxy
@@ -6,6 +10,10 @@ module-magisk:
 	@echo "Done! Now install microG-nosigspoof-systemless.zip as a Magisk module on your phone."
 
 module-recovery:
+	mkdir module/recovery/system/priv-app
+	mkdir module/recovery/system/priv-app/GmsCore
+	mkdir module/recovery/system/priv-app/Phonesky
+	mkdir module/recovery/system/priv-app/GsfProxy
 	cp apks/GmsCore.apk module/recovery/system/priv-app/GmsCore
 	cp apks/Phonesky.apk module/recovery/system/priv-app/Phonesky
 	cp apks/GsfProxy.apk module/recovery/system/priv-app/GsfProxy
