@@ -1,6 +1,6 @@
 # MicroG Installer (no signature spoofing)
 Install [microG](https://microg.org), even if your ROM doesn't support signature spoofing!
-<br>**NOTE**: You will need to remove GApps from your ROM first.
+<br><br>**NOTE**: You will need to remove GApps from your ROM first.
 ## Installer features:
 1. No native code: only shell scripts and Makefile
 2. Does not install unnecessary, extra apps
