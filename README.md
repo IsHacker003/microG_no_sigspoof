@@ -34,6 +34,7 @@ To clean, just use `make clean`.
    <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GmsCore.apk?download=)
    <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/Phonesky.apk?download=)
    <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GsfProxy.apk?download=)
+
 (The APKs can only be installed as system apps)
 ## Future plans
 1. Automatically remove all GApps while installing
