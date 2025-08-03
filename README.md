@@ -8,6 +8,8 @@ Install [microG](https://microg.org), even if your ROM doesn't support [signatur
 4. No modifications made to the ROM except for installing a few system apps
 ## How does it work?
 The microG APKs used are signed using Google's official signature for Google Play Services and Play Store, thus eliminating the need to "spoof" the signature. It is done with the help of `apksigcopier` tool.
+
+The signatures, which were extracted from the official, untampered Google Play Store and Google Play Services APKs, can be found in [sigs/signatures-google](https://github.com/IsHacker003/microg_no_sigspoof/tree/master/sigs/signatures-google)
 ## Building
 1. Clone this repo:
    ```
@@ -32,6 +34,7 @@ To clean, just use `make clean`.
    <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GmsCore.apk?download=)
    <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/Phonesky.apk?download=)
    <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GsfProxy.apk?download=)
+(The APKs can only be installed as system apps)
 ## Future plans
 1. Automatically remove all GApps while installing
 2. Optionally install other FOSS apps such as Aurora Store and F-droid
