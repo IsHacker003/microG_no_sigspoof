@@ -41,7 +41,7 @@ The first reason is obvious: while installing microG, the step where most beginn
 
 And....
 
-To enable signature spoofing even with root, you need Xposed, which most people don't want to install. microg_no_sigspoof is also useful for creating stock roms with microG preinstalled, because all "signature spoofing patchers" have now become outdated. So it's virtually impossible to create a stock rom with microG preinstalled and working unless you get rid of the signature spoofing requirement completely. Moreover signature spoofing creates vulnerabilities in the device, and this is why some people refuse to install microg in the first place by saying it's "insecure". And of course it's still way more convenient to be able to install microG by flashing a single zip, even if you are willing to install xposed.
+To enable signature spoofing even with root, you need Xposed, which most people don't want to install. microg_no_sigspoof is also useful for creating stock roms with microG preinstalled, because all "signature spoofing patchers" have now become outdated. So it's virtually impossible to create a stock rom with microG preinstalled and working unless you get rid of the signature spoofing requirement completely. Moreover signature spoofing creates vulnerabilities in the device, and this is why some people refuse to install microG in the first place by saying it's "insecure". And of course it's still way more convenient to be able to install microG by flashing a single zip, even if you are willing to install xposed.
 
 
 ## Future plans
