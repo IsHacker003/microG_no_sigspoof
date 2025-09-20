@@ -51,7 +51,7 @@ To enable signature spoofing even with root, you need Xposed, which most people 
 2. Optionally install other FOSS apps such as Aurora Store and F-droid
 ## License
 ```
-microG_no_SigSpoof: Install microG without signature apoofing!
+microG_no_SigSpoof: Install microG without signature spoofing!
 
 Copyright (C) 2025  IsHacker
 
