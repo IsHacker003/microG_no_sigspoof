@@ -25,7 +25,8 @@ The signatures, which were extracted from the official, untampered Google Play S
    make module-recovery
    ```
 
-To clean, just use `make clean`.
+To clean, just use `make clean`. <br><br>
+**NOTE:** While compiling, the APKs of the latest version of microG GMSCore, Companion and GSFProxy are downloaded from microG's official Github repo, and then these APKs are patched with the signatures.
 ## Download
 1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip
 ](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-prerelease/microG-nosigspoof-systemless.zip)
