@@ -11,7 +11,7 @@ The microG APKs used are signed using Google's official signature for Google Pla
 
 The signatures, which were extracted from the official, untampered Google Play Store and Google Play Services APKs, can be found in [sigs/signatures-google](https://github.com/IsHacker003/microg_no_sigspoof/tree/master/sigs/signatures-google).
 ## Building
-<b>Pre-requisites</b>: `apksigcopier`, `wget`, `zipalign`
+**Pre-requisites/dependencies:** `apksigcopier`, `wget`, `zipalign`
 1. Clone this repo:
    ```
    git clone https://github.com/IsHacker003/microg_no_sigspoof && cd microg_no_sigspoof
