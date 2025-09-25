@@ -30,12 +30,12 @@ make android-package
 ```
 <br>
 To clean, just use <code>make clean</code>. <br><br>
+
 **NOTE:** While compiling, the APKs of the latest version of microG GMSCore, Companion and GSFProxy are downloaded from microG's official Github repo, and then these APKs are patched with the signatures.
+
 ## Download
-1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip
-](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/microG-nosigspoof-systemless.zip)
-2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip
-](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/microG-nosigspoof-recovery.zip)
+1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/microG-nosigspoof-systemless.zip)
+2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/microG-nosigspoof-recovery.zip)
 3. Manual installation (APK):
    <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GmsCore.apk?download=)
    <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/Phonesky.apk?download=)
