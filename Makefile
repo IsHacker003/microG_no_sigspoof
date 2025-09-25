@@ -61,6 +61,7 @@ clean:
 	@if [ -e module/recovery/system/priv-app ]; then\
 		rm -rf module/recovery/system/priv-app; \
 	fi
+	rm *.apk
 
 android-package:
 	wget -O apks/Phonesky_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.9.250932/com.android.vending-84022618.apk
