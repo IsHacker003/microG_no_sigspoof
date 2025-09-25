@@ -1,6 +1,6 @@
 id=microg
 name=microG (No signature spoofing)
-version=v1.0-rc2
-versionCode=3
+version=v1.0-rc3
+versionCode=4
 author=IsHacker
 description=Systemless installation of microG without requiring signature spoofing support.
