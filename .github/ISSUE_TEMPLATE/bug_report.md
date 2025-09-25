@@ -12,7 +12,7 @@ A clear and concise description of what the bug is.
 
 **Device info**
  - Device: 
- - ROM: [e.g. Stock ROM]
+ - ROM: [e.g. Stock MIUI 14]
  - Does the ROM already have signature spoofing? [yes/no]
 
 **Additional context**
