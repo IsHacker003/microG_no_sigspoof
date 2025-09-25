@@ -37,9 +37,9 @@ To clean, just use <code>make clean</code>. <br><br>
 1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/microG-nosigspoof-systemless.zip)
 2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/microG-nosigspoof-recovery.zip)
 3. Manual installation (APK):
-   <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GmsCore.apk?download=)
-   <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/Phonesky.apk?download=)
-   <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/raw/refs/heads/master/apks/GsfProxy.apk?download=)
+   <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/GmsCore.apk)
+   <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/Phonesky.apk)
+   <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.0-rc2/GsfProxy.apk)
 <br>(The APKs can only be installed as system apps)
 
 ## Why did I make this?
