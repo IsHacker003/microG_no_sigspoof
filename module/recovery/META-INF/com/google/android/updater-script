@@ -2,6 +2,7 @@ show_progress(0.1, 0);
 ui_print("MicroG Installer without signature spoofing - recovery version");
 ui_print("Mounting system:");
 run_program("/sbin/busybox", "mount", "/system");
+ui_print("Extracting files:");
 package_extract_dir("system", "/system");
 show_progress(0.2, 10);
 unmount("/system");
