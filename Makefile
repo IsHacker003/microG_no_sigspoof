@@ -1,6 +1,6 @@
 module-magisk:
-	wget -O apks/Phonesky_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.9.250932/com.android.vending-84022618.apk
-	wget -O apks/GmsCore_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.9.250932/com.google.android.gms-250932018.apk
+	wget -O apks/Phonesky_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.10.250932/com.android.vending-84022620.apk
+	wget -O apks/GmsCore_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.10.250932/com.google.android.gms-250932020.apk
 	wget -O apks/GsfProxy.apk https://github.com/microg/GsfProxy/releases/download/v0.1.0/GsfProxy.apk
 	zip -d apks/GmsCore_o.apk META-INF/MANIFEST.MF
 	zip -d apks/GmsCore_o.apk META-INF/CERT.SF
@@ -24,8 +24,8 @@ module-magisk:
 	@echo "Done! Now install microG-nosigspoof-systemless.zip as a Magisk module on your phone."
 
 module-recovery:
-	wget -O apks/Phonesky_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.9.250932/com.android.vending-84022618.apk
-	wget -O apks/GmsCore_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.9.250932/com.google.android.gms-250932018.apk
+	wget -O apks/Phonesky_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.10.250932/com.android.vending-84022620.apk
+	wget -O apks/GmsCore_o.apk https://github.com/microg/GmsCore/releases/download/v0.3.10.250932/com.google.android.gms-250932020.apk
 	wget -O apks/GsfProxy.apk https://github.com/microg/GsfProxy/releases/download/v0.1.0/GsfProxy.apk
 	zip -d apks/GmsCore_o.apk META-INF/MANIFEST.MF
 	zip -d apks/GmsCore_o.apk META-INF/CERT.SF
