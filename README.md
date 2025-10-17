@@ -1,3 +1,5 @@
+# Announcement
+**All beta releases have been removed from the releases section, as I'm preparing for a fully stable release. In the meantime, if you still want to try this project out, feel free to build it from source yourself. The releases will be available again shortly.**
 # MicroG Installer (no signature spoofing)
 Install [microG](https://microg.org), even if your ROM doesn't support [signature spoofing](https://github.com/microg/GmsCore/wiki/Signature-Spoofing)!
 <br><br>**NOTE**: You will need to remove GApps from your ROM first.
