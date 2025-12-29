@@ -52,6 +52,12 @@ And....
 To enable signature spoofing even with root, you need Xposed, which most people don't want to install. microG_no_sigspoof is also useful for creating stock roms with microG preinstalled, because all "signature spoofing patchers" have now become outdated. So it's virtually impossible to create a stock rom with microG preinstalled and working unless you get rid of the signature spoofing requirement completely. Moreover signature spoofing creates vulnerabilities in the device, and this is why some people refuse to install microG in the first place by saying it's "insecure". And of course it's still way more convenient to be able to install microG by flashing a single zip, even if you are willing to install Xposed.
 
 
+## Credits
+1. microG developers (for microG)
+2. obfusk (for apksigcopier)
+3. ale500 (for fixing bootloop issues related to permissions)
+4. me (for the module)
+
 ## Future plans
 1. Automatically remove all GApps while installing
 2. Optionally install other FOSS apps such as Aurora Store and F-droid
