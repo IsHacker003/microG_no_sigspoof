@@ -35,7 +35,7 @@ To clean, just use <code>make clean</code>. <br><br>
 
 ## Download
 1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/microG-nosigspoof-systemless.zip)
-2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/microG-nosigspoof-recovery.zip)
+~~2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/microG-nosigspoof-recovery.zip)~~
 3. Manual installation (APK):
    <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/GmsCore.apk)
    <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/Phonesky.apk)
