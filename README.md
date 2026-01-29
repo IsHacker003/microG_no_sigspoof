@@ -55,7 +55,7 @@ To enable signature spoofing even with root, you need Xposed, which most people 
 ## Credits
 1. microG developers (for microG)
 2. obfusk (for apksigcopier)
-3. ale500 (for fixing bootloop issues related to permissions)
+3. ale500 (for fixing bootloop issues related to permissions and contributing to this repo in general)
 4. me (for the module)
 
 ## Future plans
