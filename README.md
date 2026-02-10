@@ -34,14 +34,14 @@ To clean, just use <code>make clean</code>. <br><br>
 **NOTE:** While compiling, the APKs of the latest version of microG GMSCore, Companion and GSFProxy are downloaded from microG's official Github repo, and then these APKs are patched with the signatures.
 
 ## Download
-1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/microG-nosigspoof-systemless.zip)
+1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/microG-nosigspoof-systemless.zip)
 
-~~2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/microG-nosigspoof-recovery.zip)~~ (Not stable yet)
+~~2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/microG-nosigspoof-recovery.zip)~~ (Not stable yet)
 
 3. Manual installation (APK):
-   <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/GmsCore.apk)
-   <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/Phonesky.apk)
-   <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.1/GsfProxy.apk)
+   <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/GmsCore.apk)
+   <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/Phonesky.apk)
+   <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/GsfProxy.apk)
 <br>(The APKs can only be installed as system apps)
 
 ## Why did I make this?
