@@ -1,4 +1,4 @@
-**NOTE:** Currently, I'm **NOT** working on this project, as I'm busy and I don't have devices to test it on. Expect the Magisk module to have bugs. Android 16 is **NOT** supported, it will cause bootloop. I will only provide updates when a new vrsion of microG is released, no other changes will be made. I will resume development when I'm free.
+**NOTE:** Currently, I'm **NOT** working on this project, as I'm busy and I don't have devices to test it on. Expect the Magisk module to have bugs. Android 16 is **NOT** supported, it will cause bootloop. I will only provide updates when a new version of microG is released, no other changes will be made. I will resume development when I'm free.
 
 # MicroG Installer (no signature spoofing)
 Install [microG](https://microg.org), even if your ROM doesn't support [signature spoofing](https://github.com/microg/GmsCore/wiki/Signature-Spoofing)!
