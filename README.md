@@ -9,9 +9,11 @@ Install [microG](https://microg.org), even if your ROM doesn't support [signatur
 3. Supports both systemless and non-systemless installation
 4. No modifications made to the ROM except for installing a few system apps
 ## How does it work?
-The microG APKs used are signed using Google's official signature for Google Play Services and Play Store, thus eliminating the need to "spoof" the signature. It is done with the help of `apksigcopier` tool.
+The microG APKs used are signed* using Google's official signature for Google Play Services and Play Store, thus eliminating the need to "spoof" the signature. It is done with the help of `apksigcopier` tool.
 
-The signatures, which were extracted from the official, untampered Google Play Store and Google Play Services APKs, can be found in [sigs/signatures-google](https://github.com/IsHacker003/microg_no_sigspoof/tree/master/sigs/signatures-google).
+The signature blocks, which were extracted from the official, untampered Google Play Store and Google Play Services APKs, can be found in [sigs/signatures-google](https://github.com/IsHacker003/microg_no_sigspoof/tree/master/sigs/signatures-google).
+
+*It isn't actually "signed" using those keys, if you look into how `apksigcopier` works, you will find that it just copies the binary signature block from one apk to another, without extracting the private key itself. As a result, these microG apks CANNOT be installed as user apps, as they fail signature verification. (Had to add this explanation because people on Reddit are a bit too ignorant)
 ## Building
 **Pre-requisites/dependencies:** `apksigcopier`, `wget`, `aapt2`, `zip`
 1. Clone this repo:
