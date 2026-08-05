@@ -4,7 +4,7 @@
 Install [microG](https://microg.org), even if your ROM doesn't support [signature spoofing](https://github.com/microg/GmsCore/wiki/Signature-Spoofing)!
 <br><br>**NOTE**: You will need to remove GApps from your ROM first.
 ## Installer features:
-1. No native code: only shell scripts and Makefile
+1. No native code or framework patches; permission repair uses a small Java/Dex helper
 2. Does not install unnecessary, extra apps
 3. Supports both systemless and non-systemless installation
 4. No modifications made to the ROM except for installing a few system apps
@@ -15,7 +15,15 @@ The signature blocks, which were extracted from the official, untampered Google 
 
 *It isn't actually "signed" using those keys, if you look into how `apksigcopier` works, you will find that it just copies the binary signature block from one apk to another, without extracting the private key itself. As a result, these microG apks CANNOT be installed as user apps, as they fail signature verification. (Had to add this explanation because people on Reddit are a bit too ignorant)
 ## Building
-**Pre-requisites/dependencies:** `apksigcopier`, `wget`, `aapt2`, `zip`
+**Pre-requisites/dependencies:** `apksigcopier`, `wget`, `aapt2`, `zip`, JDK 8+
+brew install pipx
+pipx ensurepath
+pipx install apksigcopier
+export PATH="$HOME/.local/bin:$PATH"
+
+brew install --cask android-commandlinetools
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_SDK_ROOT/build-tools/36.0.0:$PATH"
 1. Clone this repo:
    ```
    git clone https://github.com/IsHacker003/microg_no_sigspoof && cd microg_no_sigspoof
@@ -24,6 +32,11 @@ The signature blocks, which were extracted from the official, untampered Google 
    ```
    make module-magisk
    ```
+
+The Magisk/APatch module Action adds hard-restricted permissions to Android's
+system allowlist before granting them. This fixes `ACCESS_BACKGROUND_LOCATION`
+and `RECEIVE_SMS` on an existing user, where a plain `pm grant` can report
+success without changing the effective permission state.
 3. Build recovery-flashable zip:
    ```
    make module-recovery
@@ -38,14 +51,14 @@ To clean, just use <code>make clean</code>. <br><br>
 **NOTE:** While compiling, the APKs of the latest version of microG GMSCore, Companion and GSFProxy are downloaded from microG's official Github repo, and then these APKs are patched with the signatures.
 
 ## Download
-1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/microG-nosigspoof-systemless.zip)
+1. Systemless (Magisk/KernelSU/Apatch module): [microG-nosigspoof-systemless.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/latest/download/microG-nosigspoof-systemless.zip)
 
-~~2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/microG-nosigspoof-recovery.zip)~~ (Not stable yet)
+~~2. Non-systemless (Recovery-flashable zip, supports all modern custom recoveries such as TWRP, OrangeFox, etc.): [microG-nosigspoof-recovery.zip](https://github.com/IsHacker003/microg_no_sigspoof/releases/latest/download/microG-nosigspoof-recovery.zip)~~ (Not stable yet)
 
 3. Manual installation (APK):
-   <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/GmsCore.apk)
-   <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/Phonesky.apk)
-   <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/releases/download/v1.2/GsfProxy.apk)
+   <br>[microG GMSCore](https://github.com/IsHacker003/microg_no_sigspoof/releases/latest/download/GmsCore.apk)
+   <br>[microG Companion](https://github.com/IsHacker003/microg_no_sigspoof/releases/latest/download/Phonesky.apk)
+   <br>[microG GSFProxy](https://github.com/IsHacker003/microg_no_sigspoof/releases/latest/download/GsfProxy.apk)
 <br>(The APKs can only be installed as system apps)
 
 ## Why did I make this?
