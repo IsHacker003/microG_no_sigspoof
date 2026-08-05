@@ -1,0 +1,4 @@
+.build/
+*.apk
+*.zip
+module/magisk/restricted-permission-tool.jar

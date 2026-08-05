@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+    <allow-in-power-save package="com.google.android.gms"/>
+    <allow-in-data-usage-save package="com.google.android.gms"/>
+    <allow-unthrottled-location package="com.google.android.gms"/>
+    <allow-ignore-location-settings package="com.google.android.gms" attributionTag="com.google.android.gms.thunderbird"/>
+
+    <app-link package="com.android.vending"/>
+    <app-link package="com.google.android.gms"/>
+
+    <backup-transport-whitelisted-service service="com.google.android.gms/.backup.BackupTransportService"/>
+    <backup-transport-whitelisted-service service="com.google.android.gms/.backup.component.D2dTransportService"/>
+
+    <app-data-isolation-whitelisted-app package="com.google.android.gms"/>
+</config>
