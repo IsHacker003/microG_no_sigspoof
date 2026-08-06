@@ -28,20 +28,6 @@ The Magisk package installs the patched APKs under `system/product/priv-app`, ma
 
 **Prerequisites:** `apksigcopier`, `wget`, `zip`, JDK 8 or newer, Android SDK Platform 35, and Android SDK Build Tools 36.0.0 (`zipalign` and `d8`).
 
-Example setup on macOS:
-
-```bash
-brew install pipx
-pipx ensurepath
-pipx install apksigcopier
-export PATH="$HOME/.local/bin:$PATH"
-
-brew install --cask android-commandlinetools
-export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
-export PATH="$ANDROID_SDK_ROOT/build-tools/36.0.0:$PATH"
-sdkmanager "platforms;android-35" "build-tools;36.0.0"
-```
-
 1. Clone this repo:
 
    ```bash
