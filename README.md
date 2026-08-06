@@ -97,11 +97,6 @@ To enable signature spoofing even with root, you need Xposed, which most people 
 5. me (for the module)
 6. @mazi-wan (for Magisk module fix and permission fix)
 
-## Future plans
-
-1. Add Android 16 support after it can be tested safely
-2. Optionally install other FOSS apps such as Aurora Store and F-droid
-
 ## License
 
 ```
