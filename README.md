@@ -95,7 +95,7 @@ To enable signature spoofing even with root, you need Xposed, which most people 
 3. ale500 (for fixing bootloop issues related to permissions and contributing to this repo in general)
 4. [SelfRef/noogle-magisk](https://github.com/SelfRef/noogle-magisk) (for the modern Magisk module structure and installation scripts)
 5. me (for the module)
-6. @mazi-wan (for Magisk module fix and permission fix)
+6. [@mazi-wan](https://github.com/mazi-wan) (for Magisk module fix and permission fix)
 
 ## License
 
