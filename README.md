@@ -29,7 +29,7 @@ The Magisk package installs the patched APKs under `system/product/priv-app`, ma
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/IsHacker003/microg_no_sigspoof && cd microg_no_sigspoof
+   git clone https://github.com/IsHacker003/microG_no_sigspoof && cd microG_no_sigspoof
    ```
 
 2. Build Magisk module:
